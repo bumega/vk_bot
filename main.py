@@ -12,7 +12,7 @@ from random import randint
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from vk_api.upload import VkUpload
 #подключение к сессии
-token = "vk1.a.KUBo0_Odxv_FDMkct7yUIRlAR5qaOLzz6-N8j_5u3Jcf-l9xhZPKFY6GdQv53It1JFk4NZAYdvAhdAIJkxi4_i0NFmB9ISybgWZbGGbnOvlYLDTt1k4blBlcT4K5GgQ2I-EI_fgnvQeIdTUJnpvpDH8VP4pzx5-SSVNVNfRcNAsR4hn6aeq70NUQFv-hh2YO"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
 longpoll = VkBotLongPoll(vk_session, "214807798")
